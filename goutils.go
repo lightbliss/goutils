@@ -1,6 +1,6 @@
 package goutils
 
-func Contains(a []string, x string) bool {
+func InSlice(a []string, x string) bool {
 	for _, n := range a {
 		if x == n {
 			return true
